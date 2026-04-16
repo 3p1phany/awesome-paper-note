@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe -Command \"Get-InstalledModule -Name oh-my-posh -ErrorAction SilentlyContinue | Select-Object Name,Version; Get-InstalledModule -Name posh-git -ErrorAction SilentlyContinue | Select-Object Name,Version\")",
+      "Read(//c/Users/xuhan/**)",
+      "Bash(powershell.exe:*)",
+      "Bash(winget list:*)",
+      "Bash(winget install:*)",
+      "Bash(export PATH=\"$PATH:/c/Users/xuhan/AppData/Local/Programs/oh-my-posh/bin\")",
+      "Bash(oh-my-posh font:*)",
+      "Bash(where.exe oh-my-posh.exe)",
+      "Bash(oh-my-posh.exe font:*)",
+      "Bash(oh-my-posh.exe get:*)"
+    ]
+  }
+}
